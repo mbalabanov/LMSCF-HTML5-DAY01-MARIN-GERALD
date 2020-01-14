@@ -2,47 +2,96 @@
 <html>
 <head>
 	<title>The Scientist Coldplay</title>
+
+	<style>
+		#lyrics {
+			float: left;
+		}
+		#picture {
+			float: right;
+		}
+		main {
+			width:  600px;
+			margin:  0 auto;
+			background-color: white;
+		}
+		.leiwand {
+			color:  red;
+		}
+		#logo {
+			float: left;
+			margin:  20px;
+		}
+		nav {
+			float: left;
+			margin:  12px 0px 10px 10px;
+		}
+		.clear {
+			clear:  both;
+		}
+		header {
+			margin: 0 auto;
+			width:  600px;
+			background-color: lightblue;
+		}
+
+	</style>
 </head>
 <body>
-<h1>The Scientist</h1>
-<h2>Coldplay</h2>
+	<header>
+		<div id="logo">
+			<img src="img/logo.png" width="90px">
+		</div>
+		<nav>
+			<p>Song 1 - About Coldplay&nbsp;<input type="text" name="Search" placeholder="Search"><button type="submit" name="Search">Search</button></p>
+		</nav>
+	</header>
+	<div class="clear"></div>
+	<main>
+		<h1>The Scientist</h1>
+		<h2>Coldplay</h2>
 
-<p>Come up to meet you<br>
-Tell you I'm sorry<br>
-You don't know how lovely you are<br>
-I had to find you<br>
-Tell you I need you<br>
-Tell you I set you apart</p>
+		<section id="lyrics">
+			<p>Come up to meet you<br>
+			Tell you I'm sorry<br>
+			You don't know how lovely you are<br>
+			I had to find you<br>
+			Tell you I need you<br>
+			Tell you I set you apart</p>
 
-<p>Tell me your secrets<br>
-And ask me your questions<br>
-Oh let's go back to the start<br>
-Running in circles, coming up tails<br>
-Heads on a science apart</p>
+			<p>Tell me your secrets<br>
+			And ask me your questions<br>
+			Oh let's go back to the start<br>
+			Running in circles, coming up tails<br>
+			Heads on a science apart</p>
 
-<p>Nobody said it was easy<br>
-It's such a shame for us to part<br>
-Nobody said it was easy<br>
-No one ever said it would be this hard<br>
-Oh take me back to the start</p>
+			<p>Nobody said it was easy<br>
+			It's such a shame for us to part<br>
+			Nobody said it was easy<br>
+			No one ever said it would be this hard<br>
+			Oh take me back to the start</p>
 
-<p>I was just guessing at numbers and figures<br>
-Pulling your puzzles apart<br>
-Questions of science, science and progress<br>
-Do not speak as loud as my heart</p>
+			<p>I was just guessing at numbers and figures<br>
+			Pulling your puzzles apart<br>
+			Questions of science, science and progress<br>
+			Do not speak as loud as my heart</p>
 
-<p>Tell me you love me<br>
-Come back and haunt me<br>
-Oh and I rush to the start<br>
-Running in circles, chasing our tails<br>
-Coming back as we are</p>
+			<p>Tell me you love me<br>
+			Come back and haunt me<br>
+			Oh and I rush to the start<br>
+			Running in circles, chasing our tails<br>
+			Coming back as we are</p>
 
-<p>Nobody said it was easy<br>
-Oh it's such a shame for us to part<br>
-Nobody said it was easy<br>
-No one ever said it would be so hard<br>
-I'm going back to the start<br>
-</p>
-<img src="img/coldplay.jpg" alt="Coldplay beim Auftritt">
+			<p>Nobody said it was easy<br>
+			<span class="leiwand">Oh it's such a shame for us to part</span><br>
+			Nobody said it was easy<br>
+			No one ever said it would be so hard<br>
+			I'm going back to the start<br>
+			</p>
+		</section>
+		<section id="picture">
+			<img src="img/coldplay.jpg" alt="Coldplay beim Auftritt">
+		</section>
+	</main>
 </body>
 </html>
